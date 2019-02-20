@@ -88,16 +88,9 @@ body,html{
     }
 
   }
-  /*
-  @media(max-width:568px) {.A{
+  @media(min-width:368px) {.A{
     text-align: center;
       left: 110px;
   }
-*/
-    }
-    @media (max-width:460px){.A{
-      text-align: center;
-      left: 50px;
-    }
 
-      }
+    }

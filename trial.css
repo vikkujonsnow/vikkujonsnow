@@ -74,9 +74,10 @@ margin-bottom: 0;
   }*/
 
     }
-    @media (max-width:430px){.B{
+    @media (min-width:430px){.B{
       text-align: center;
       left: 50px;
+
     }
 
       }
