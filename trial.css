@@ -66,8 +66,14 @@ margin-bottom: 0;
   .pimg1,.pimg2{
     background-attachment:scroll;
   }
-
+  }
+@media (max-width:568px) {.B{
+  text-align: center;
+  left: 50px;
 }
+
+  }
+
 .btn {
   color: #fff;
   background: #000;
