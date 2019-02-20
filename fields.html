@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FIELDS</title>
+    <link href="fields.css" rel="stylesheet">
+    <link href="fields.css" type="text/css" rel="stylesheet">
+    <script>
+    function myFunction() {
+      let name = document.getElementById('name').value
+      let email = document.getElementById('email').value
+      fetch('https://jsonplaceholder.typicode.com/users', {
+        method: 'POST',
+        body: JSON.stringify({name, email})
+      })
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(myJson) {
+          console.log(myJson);
+        });
+    }
+
+    </script>
+    </head>
+  <body>
+    <h2 class="A">FIELDS</h2>
+    <section class="box1">
+
+    <form>
+
+      <div class="input-field">
+        <label></label>
+        <input  class="i"  type="text" name="First Name" placeholder="First Name" id="name">
+      </div>
+      <div class="input-field">
+        <label></label>
+        <input class="i" type="text" name="Last Name" placeholder="Last Name">
+      </div>
+      <div class="input-field">
+        <label></label>
+        <input class="i" type="email" name="Email" placeholder="Email" id="email">
+      </div>
+      <div class="input-field">
+        <label></label>
+        <input class="i"  type="password" name="Password" placeholder="Password">
+      </div>
+      <div class="input-field">
+        <label></label>
+        <input  class="i"  type="text" name="Phone Number" placeholder="Phone Number">
+      </div>
+
+
+      <h1><button class="btn" onclick="return myFunction();">SUBMIT</button></h1>
+
+    </form>
+    </section>
+
+  </body>
+
+</html>
