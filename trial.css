@@ -67,7 +67,7 @@ margin-bottom: 0;
     background-attachment:scroll;
   }
   }
-@media (max-width:568px) {.B{
+@media (min-width:300px;)and(max-width:568px) {.B{
   text-align: center;
   left: 50px;
 }
