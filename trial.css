@@ -67,12 +67,19 @@ margin-bottom: 0;
     background-attachment:scroll;
   }
   }
-@media (min-width:300px;)and(max-width:568px) {.B{
+@media (max-width:568px) {.B{
   text-align: center;
   left: 50px;
 }
 
   }
+  @media (min-width:300px) {.B{
+    text-align: center;
+    left: 50px;
+  }
+
+    }
+
 
 .btn {
   color: #fff;

@@ -88,9 +88,15 @@ body,html{
     }
 
   }
-  @media (min-width:300px) and (max-width:568px) {.A{
+  @media(max-width:568px) {.A{
     text-align: center;
       left: 110px;
   }
 
     }
+    @media(min-width:300px) {.A{
+      text-align: center;
+        left: 110px;
+    }
+
+      }
