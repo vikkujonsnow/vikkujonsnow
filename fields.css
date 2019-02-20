@@ -95,7 +95,7 @@ body,html{
   }
 */
     }
-    @media (max-width:320px){.A{
+    @media (max-width:460px){.A{
       text-align: center;
       left: 50px;
     }
