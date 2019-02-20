@@ -67,8 +67,11 @@ margin-bottom: 0;
     background-attachment:scroll;
   }
   }
-
-
+/*
+  @media (max-width:568px){.B{
+    text-align: center;
+    left: 50px;
+  }*/
 
     }
     @media (max-width:320px){.B{

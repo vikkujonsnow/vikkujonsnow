@@ -88,11 +88,12 @@ body,html{
     }
 
   }
+  /*
   @media(max-width:568px) {.A{
     text-align: center;
       left: 110px;
   }
-
+*/
     }
     @media (max-width:320px){.A{
       text-align: center;
