@@ -94,9 +94,9 @@ body,html{
   }
 
     }
-    @media(min-width:300px) {.A{
+    @media (max-width:320px){.B{
       text-align: center;
-        left: 110px;
+      left: 50px;
     }
 
       }
