@@ -18,7 +18,7 @@ text-align: center;
 border: thick solid red;
 position: absolute;
  top: 110px;
- left: 450px;
+ left: 150px;
   font-size: 150px;
 margin-top: 20px;
 color:black;
@@ -74,7 +74,7 @@ margin-bottom: 0;
   }*/
 
     }
-    @media (min-width:430px){.B{
+    @media (max-width:1320px){.B{
       text-align: center;
       left: 50px;
 
